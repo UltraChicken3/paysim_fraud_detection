@@ -1,0 +1,16 @@
+# Local data and generated model artifacts
+data/raw/*
+!data/raw/.gitkeep
+models/*.joblib
+
+# Local environments and notebook files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local archives and temporary files
+*.zip
+*.log
+.DS_Store
